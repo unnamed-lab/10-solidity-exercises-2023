@@ -1,0 +1,32 @@
+# 10 Solidity Exercises For Beginners.
+
+Welcome to my latest project, where I've compiled a list of 10 Solidity smart contract exercises that you can try out to improve your skills in blockchain development. 
+
+In this project, you'll find a variety of smart contract implementations, ranging from simple storage contracts to more complex systems like auctions, crowdfunding, and supply chain management. 
+Each exercise is designed to challenge your understanding of Solidity and help you gain practical experience in building decentralized applications. 
+Whether you're a beginner or an experienced developer, you're sure to find something that interests you in this collection. 
+
+So, what are you waiting for? Let's dive into the world of smart contracts and start building! 💻🚀
+
+Here are the exercises we would be working on:
+1. Create a simple smart contract that stores a string and allows other users to read it.
+2. Create a smart contract that allows users to vote on a proposal.
+3. Create a smart contract that implements a simple auction system.
+4. Create a smart contract that implements a basic crowdfunding system.
+5. Create a smart contract that implements a simple token system.
+6. Create a smart contract that implements a simple lottery system.
+7. Create a smart contract that implements a simple escrow system.
+8. Create a smart contract that allows users to buy and sell items using a cryptocurrency.
+9. Create a smart contract that implements a basic supply chain management system.
+10. Create a smart contract that implements a simple decentralized exchange.
+
+
+Try running some of the following tasks:
+
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
+```
