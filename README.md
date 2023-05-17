@@ -21,8 +21,30 @@ Here are the exercises we would be working on:
 10. Create a smart contract that implements a simple decentralized exchange.
 
 
+During this exercise, the Solidity compiler version used was the 0.8.18;
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.18;
+```
+
+The non re-enterancy modifier was used throughout the exercise to ensure that on some given functions the contract doesn't call itself.
+```
+uint private constant NotEntered = 0;
+uint private constant Entered = 1;
+uint private _status;
+
+...
+
+modifier nonReentrancy() {
+    require(_status != Entered, "Reentrancy call");
+    _status = Entered;
+    _;
+    _status = NotEntered;
+}
+```
 
 
+Added by default:
 Try running some of the following tasks:
 ```shell
 npx hardhat help
