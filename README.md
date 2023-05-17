@@ -6,7 +6,7 @@ In this project, you'll find a variety of smart contract implementations, rangin
 Each exercise is designed to challenge your understanding of Solidity and help you gain practical experience in building decentralized applications. 
 Whether you're a beginner or an experienced developer, you're sure to find something that interests you in this collection. 
 
-So, what are you waiting for? Let's dive into the world of smart contracts and start building! 💻🚀
+**So, what are you waiting for? Let's dive into the world of smart contracts and start building! 💻🚀**
 
 Here are the exercises we would be working on:
 1. Create a simple smart contract that stores a string and allows other users to read it.
@@ -21,8 +21,9 @@ Here are the exercises we would be working on:
 10. Create a smart contract that implements a simple decentralized exchange.
 
 
-Try running some of the following tasks:
 
+
+Try running some of the following tasks:
 ```shell
 npx hardhat help
 npx hardhat test
