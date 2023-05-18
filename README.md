@@ -27,7 +27,7 @@ During this exercise, the Solidity compiler version used was the 0.8.18;
 pragma solidity ^0.8.18;
 ```
 
-The non re-enterancy modifier was used throughout the exercise to ensure that on some given functions the contract doesn't call itself.
+The non reentrancy modifier was used throughout the exercise to ensure that on some given functions the contract doesn't call itself.
 ```
 uint private constant NotEntered = 0;
 uint private constant Entered = 1;
@@ -40,6 +40,14 @@ modifier nonReentrancy() {
     _status = Entered;
     _;
     _status = NotEntered;
+}
+```
+
+To give the contract deployer the power to run some particular functions, I added the onlyOwner modifier.
+```
+modifier onlyOwner() {
+    require(msg.sender == owner, "Not creator of contract");
+    _;
 }
 ```
 
