@@ -21,13 +21,13 @@ Here are the exercises we would be working on:
 10. Create a smart contract that implements a simple decentralized exchange.
 
 
-During this exercise, the Solidity compiler version used was the 0.8.18;
+**During this exercise, the Solidity compiler version used was the 0.8.18;**
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 ```
 
-The non reentrancy modifier was used throughout the exercise to ensure that on some given functions the contract doesn't call itself.
+**The non reentrancy modifier was used throughout the exercise to ensure that on some given functions the contract doesn't call itself.**
 ```
 uint private constant NotEntered = 0;
 uint private constant Entered = 1;
@@ -43,7 +43,7 @@ modifier nonReentrancy() {
 }
 ```
 
-To give the contract deployer the power to run some particular functions, I added the onlyOwner modifier.
+**To give the contract deployer the power to run some particular functions, I added the onlyOwner modifier.**
 ```
 modifier onlyOwner() {
     require(msg.sender == owner, "Not creator of contract");
@@ -52,7 +52,7 @@ modifier onlyOwner() {
 ```
 
 
-Added by default:
+**Added by default:::**
 Try running some of the following tasks:
 ```shell
 npx hardhat help
