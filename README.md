@@ -40,7 +40,7 @@ Here are the exercises we would be working on:
 ```
 5. Create a smart contract that implements a simple token system.
 ```
-..\
+..\contracts\SimpleToken.sol
 ```
 6. Create a smart contract that implements a simple lottery system.
 ```

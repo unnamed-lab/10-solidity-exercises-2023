@@ -7,6 +7,7 @@
     "hardhat": "^2.14.0"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
     "abort-controller": "^3.0.0",
     "abstract-level": "^1.0.3",
     "adm-zip": "^0.4.16",
