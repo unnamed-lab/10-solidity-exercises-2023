@@ -21,6 +21,49 @@ Here are the exercises we would be working on:
 10. Create a smart contract that implements a simple decentralized exchange.
 
 
+**Solidity contract file directories(../contracts):**
+1. Create a simple smart contract that stores a string and allows other users to read it.
+```
+..\contracts\Messaging.sol
+```
+2. Create a smart contract that allows users to vote on a proposal.
+```
+..\contracts\VotingPoll.sol
+```
+3. Create a smart contract that implements a simple auction system.
+```
+..\contracts\Auction.sol
+```
+4. Create a smart contract that implements a basic crowdfunding system.
+```
+..\contracts\Crowdfunding.sol
+```
+5. Create a smart contract that implements a simple token system.
+```
+..\
+```
+6. Create a smart contract that implements a simple lottery system.
+```
+..\contracts\Lottery.sol
+```
+7. Create a smart contract that implements a simple escrow system.
+```
+..\contracts\Escrow.sol
+```
+8. Create a smart contract that allows users to buy and sell items using a cryptocurrency.
+```
+..\contracts\Marketplace.sol
+```
+9. Create a smart contract that implements a basic supply chain management system.
+```
+..\contracts\SupplyChain.sol
+```
+10. Create a smart contract that implements a simple decentralized exchange.
+```
+..\
+```
+
+
 **During this exercise, the Solidity compiler version used was the 0.8.18;**
 ```
 // SPDX-License-Identifier: MIT
