@@ -60,7 +60,7 @@ Here are the exercises we would be working on:
 ```
 10. Create a smart contract that implements a simple decentralized exchange.
 ```
-..\
+..\contracts\Exchange.sol
 ```
 
 
