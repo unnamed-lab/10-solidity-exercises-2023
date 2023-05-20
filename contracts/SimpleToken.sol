@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
-contract PepeBallZ is ERC20Capped, ERC20Burnable, ReentrancyGuard, AccessControl {
+contract SimpleToken is ERC20Capped, ERC20Burnable, ReentrancyGuard, AccessControl {
     address payable private owner;
 
     constructor(string memory _name, string memory _symbol, uint256 totalSupply)  
