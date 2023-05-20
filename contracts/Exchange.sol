@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
-import "contracts/Token.sol";
+import "./SimpleToken.sol";
 
 contract Exchange {
     uint private constant NotEntered = 0;
@@ -47,7 +47,6 @@ contract Exchange {
         SimpleToken token = SimpleToken(tokenAddress);
         uint tokenValue = _amount * rate;
         require(msg.value >= tokenValue, "No enough ETH to complete transaction");
-        // token.transfer(msg.sender, _amount);
         if (msg.value == tokenValue) {
             token.transfer(msg.sender, _amount);
         } 
